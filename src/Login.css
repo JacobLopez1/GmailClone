@@ -1,0 +1,27 @@
+.login {
+    display: grid;
+    background-color: #f2f2f2;
+    place-items: center;
+    height: 100vh;
+}
+
+.login__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__container > img {
+    object-fit: contain;
+    height: 200px;
+    padding-bottom: 16px;
+}
+
+.login__container > .MuiButton-root {
+    color: white;
+    background-color: #1a73e8;
+}
+
+.login__container > .MuiButton-root:hover {
+    color: #242424;
+}
+
